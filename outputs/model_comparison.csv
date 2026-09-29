@@ -1,0 +1,5 @@
+Model,Balancing Method,Important Hyperparameters,CV F1 Mean,CV F1 Std,Test Accuracy,Precision,Recall,F1,ROC-AUC
+Logistic Regression (Baseline),SMOTE (ImbPipeline),"C=1.0, penalty=l2, default",0.8341,0.034,0.8378,0.8958,0.86,0.8776,0.925
+Logistic Regression (Tuned),SMOTE (ImbPipeline),"C=0.1, penalty=l1, liblinear",0.8601,0.019,0.7973,0.8723,0.82,0.8454,0.9267
+Decision Tree (Tuned),class_weight=None,"max_depth=3, min_leaf=4, criterion=entropy",0.8667,0.022,0.7973,0.8431,0.86,0.8515,0.815
+Random Forest (Tuned),class_weight=None,"n_est=150, max_depth=6, min_leaf=2, sqrt",0.879,0.0277,0.8108,0.8,0.96,0.8727,0.8967
