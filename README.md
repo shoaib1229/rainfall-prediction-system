@@ -1,5 +1,9 @@
 # Rainfall Prediction Using Machine Learning
 
+## 🚀 Live Demo
+
+👉 **[Open Rainfall Prediction System](https://rainfall-prediction-system.streamlit.app/)**
+
 ## Overview
 
 This project implements a complete, leak-free machine learning workflow to predict rainfall occurrence from surface weather observations. Using historical daily meteorological records, the pipeline cleans and preprocesses raw data, addresses class imbalance, and trains and tunes multiple classification models. The project emphasizes empirical verification, comparing Logistic Regression, Decision Tree, and Random Forest architectures under rigorous 5-fold cross-validation and a strictly held-out test set. All final metrics are verified directly from model predictions without data leakage or performance fabrication.
